@@ -5,10 +5,15 @@
     }
 
 body {
-    background: red;
-    background-size: auto 100vh;
-    font-family: fantasy;
+    background-image: url(../aula_html5_ccs3/img/fundo.jpg);
+    background-size: auto 100vh; 
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
+    font-size: 12px;
+    }
+
+@media () {
+    
 }
 
 header {
