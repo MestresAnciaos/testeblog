@@ -6,6 +6,7 @@
 
 body {
     background: red;
+    background-size: auto 100vh;
     font-family: fantasy;
 }
 
@@ -39,6 +40,7 @@ header {
 .site_title {
     color: black;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 h1 {
