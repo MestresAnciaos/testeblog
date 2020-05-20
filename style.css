@@ -19,13 +19,6 @@ body {
     body {
       font-size: 14px;
         }
-    
-    img {
-      height: 150px;
-      object-fit: cover;
-      object-position: left bottom;
-      width: 150px;
-      }
     }
   
   /* breakpoint */
@@ -93,8 +86,35 @@ a:hover {
 }
 
 img {
+    height: 150px;
+    object-fit: cover;
+    object-position: left bottom;
+    width: 150px;  
+}
+
+@media (min-width: 400px) {
+  img {
+    height: 250px;
+    object-fit: cover;
+    object-position: left bottom;
+    width: 250px;
+    }
+  }
+
+@media (min-width: 600px) {
+  img {
     height: 300px;
     object-fit: cover;
     object-position: left bottom;
-    width: 300px;   
-}
+    width: 300px;
+    }
+  }
+
+@media (min-width: 400px) {
+  img {
+    height: 400px;
+    object-fit: cover;
+    object-position: left bottom;
+    width: 400px;
+    }
+  }
