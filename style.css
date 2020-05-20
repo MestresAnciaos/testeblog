@@ -7,7 +7,7 @@
 body {
     background-color: rgba(248, 74, 6, 0.925);
     background-size: auto 100vh; 
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
     font-size: 10 px;
     color: black;
@@ -47,7 +47,27 @@ header {
     position: fixed;
     width: 100vw;
     top: 0;
+    font-family: 'VT323', monospace;
+    font-size: 1200px;
 }
+
+@media (min-width: 400px) {
+  .menu {
+    font-size: 18px;
+      }
+  }
+
+@media (min-width: 600px) {
+  .menu {
+    font-size: 24px;
+      }
+  }
+
+@media (min-width: 1200px) {
+  .menu {
+    font-size: 30px;
+      }
+  }
 
 .menu li {
     list-style: none;
@@ -63,12 +83,33 @@ header {
     padding: 10px 20px;
 }
 
-
 .site_title {
     color: black;
     text-align: center;
     margin-bottom: 100px;
 }
+
+.texto {
+    font-family: 'Sacramento', cursive;
+}
+
+@media (min-width: 400px) {
+  .texto {
+    font-size: 24px;
+      }
+  }
+
+@media (min-width: 600px) {
+  .texto {
+    font-size: 36px;
+      }
+  }
+
+@media (min-width: 1200px) {
+  .texto {
+    font-size: 40px;
+      }
+  }
 
 a {
     color: black;
@@ -90,14 +131,14 @@ img {
     height: 90px;
     object-fit: cover;
     object-position: left bottom;
-    width: 150px;  
+    width: 150px;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 @media (min-width: 400px) {
   img {
     height: 170px;
-    object-fit: cover;
-    object-position: left bottom;
     width: 300px;
     }
   }
@@ -105,8 +146,6 @@ img {
 @media (min-width: 600px) {
   img {
     height: 230px;
-    object-fit: cover;
-    object-position: left bottom;
     width: 400px;
     }
   }
@@ -114,8 +153,6 @@ img {
 @media (min-width: 1200px) {
   img {
     height: 320px;
-    object-fit: cover;
-    object-position: left bottom;
     width: 550px;
     }
   }
