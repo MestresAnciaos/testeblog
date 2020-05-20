@@ -86,6 +86,7 @@ header {
 
 .texto {
   font-family: 'Sacramento', cursive;
+  font-size: 80px;
 }
 
 @media (min-width: 400px) {
