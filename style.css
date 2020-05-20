@@ -1,25 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
 body {
-    background-color: rgba(248, 74, 6, 0.925);
-    background-size: auto 100vh; 
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    font-size: 10 px;
-    color: black;
-    text-align: center;
-    }
+  background-color: rgba(248, 74, 6, 0.925);
+  background-size: auto 100vh; 
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  font-size: 10 px;
+  color: black;
+  text-align: center;
+  }
 
       /* se a tela tiver pelo menos 400px vai carregar estes estilos */
 @media (min-width: 400px) {
-    body {
-      font-size: 12px;
-        }
-    }
+  body {
+    font-size: 12px;
+      }
+  }
   
   /* breakpoint */
 @media (min-width: 600px) {
@@ -50,6 +50,12 @@ header {
     font-family: 'VT323', monospace;
 }
 
+@media (min-width: 1200px) {
+  .menu {
+    font-size: 30px;
+      }
+  }
+
 .menu li {
     list-style: none;
 }
@@ -65,14 +71,19 @@ header {
 }
 
 .site_title {
-    color: black;
-    text-align: center;
+    color:rgba(22, 7, 7, 0.842);
     margin-bottom: 100px;
 }
 
 .texto {
     font-family: 'Sacramento', cursive;
 }
+
+@media (min-width: 1200px) {
+  .texto {
+    font-size: 40px;
+      }
+  }
 
 a {
     color: black;
@@ -85,18 +96,19 @@ a:hover {
 }
 
 .site-subtitle {
-    font-style: italic;
-    font-family: 'Press Start 2P', cursive;
-    line-height: 1.8em;
+  font-style: italic;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.8em;
 }
+
 
 img {
     height: 90px;
     object-fit: cover;
     object-position: left bottom;
     width: 150px;
-    margin-bottom: 1em;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 @media (min-width: 400px) {
