@@ -14,21 +14,18 @@ body {
   text-align: center;
   }
 
-      /* se a tela tiver pelo menos 400px vai carregar estes estilos */
 @media (min-width: 400px) {
   body {
     font-size: 12px;
       }
   }
-  
-  /* breakpoint */
+
 @media (min-width: 600px) {
     body {
       font-size: 16px;
         }
     }
-  
-  /* breakpoint */
+
 @media (min-width: 1200px) {
     body {
       font-size: 20px;
@@ -36,19 +33,25 @@ body {
     }
 
 header {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu {
-    background-color: rgb(129, 39, 3);
-    position: fixed;
-    width: 100vw;
-    top: 0;
-    font-family: 'VT323', monospace;
+  background-color: rgb(129, 39, 3);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  font-family: 'VT323', monospace;
 }
+
+@media (min-width: 600px) {
+  .menu {
+    font-size: 24px;
+      }
+  }
 
 @media (min-width: 1200px) {
   .menu {
@@ -57,27 +60,33 @@ header {
   }
 
 .menu li {
-    list-style: none;
+  list-style: none;
 }
 
 .menu ul {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .menu a {
-    display: block;
-    padding: 10px 20px;
+  display: block;
+  padding: 10px 20px;
 }
 
 .site_title {
-    color:rgba(22, 7, 7, 0.842);
-    margin-bottom: 100px;
+  color:rgba(22, 7, 7, 0.842);
+  margin-bottom: 100px;
 }
 
 .texto {
-    font-family: 'Sacramento', cursive;
+  font-family: 'Sacramento', cursive;
 }
+
+@media (min-width: 600px) {
+  .texto {
+    font-size: 36px;
+      }
+  }
 
 @media (min-width: 1200px) {
   .texto {
@@ -86,13 +95,13 @@ header {
   }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: burlywood;
+  text-decoration: underline;
+  color: burlywood;
 }
 
 .site-subtitle {
@@ -103,12 +112,12 @@ a:hover {
 
 
 img {
-    height: 90px;
-    object-fit: cover;
-    object-position: left bottom;
-    width: 150px;
-    margin-top: 1em;
-    margin-bottom: 1em;
+  height: 90px;
+  object-fit: cover;
+  object-position: left bottom;
+  width: 150px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 @media (min-width: 400px) {
