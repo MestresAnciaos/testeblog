@@ -87,9 +87,6 @@ a:hover {
 
 img {
     height: 300px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
     object-fit: cover;
     object-position: left bottom;
     width: 300px;   
