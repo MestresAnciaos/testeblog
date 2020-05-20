@@ -131,7 +131,7 @@ img {
   margin-top: 1em;
   margin-bottom: 1em;
   object-fit: fill;
-  border-radius: 10%;
+  border-radius: 15%;
 }
 
 @media (min-width: 400px) {
