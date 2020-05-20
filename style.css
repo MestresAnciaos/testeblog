@@ -19,6 +19,13 @@ body {
     body {
       font-size: 14px;
         }
+    
+    img {
+      height: 150px;
+      object-fit: cover;
+      object-position: left bottom;
+      width: 150px;
+      }
     }
   
   /* breakpoint */
