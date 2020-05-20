@@ -62,7 +62,14 @@ header {
     display: block;
     padding: 10px 20px;
 }
+
 @media (min-width: 400px) {
+  .meni a {
+    padding: 2px 5px;
+      }
+  }
+
+@media (min-width: 600px) {
   .meni a {
     padding: 5px 10px;
       }
