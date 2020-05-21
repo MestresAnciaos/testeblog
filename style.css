@@ -45,6 +45,7 @@ header {
   width: 100vw;
   top: 0;
   font-family: 'VT323', monospace;
+  font-size: 20px;
 }
 
 @media (min-width: 400px) {
@@ -86,24 +87,24 @@ header {
 
 .texto {
   font-family: 'Sacramento', cursive;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 @media (min-width: 400px) {
   .texto {
-    font-size: 30px;
+    font-size: 40px;
       }
   }
 
 @media (min-width: 600px) {
   .texto {
-    font-size: 35px;
+    font-size: 45px;
       }
   }
 
 @media (min-width: 1200px) {
   .texto {
-    font-size: 40px;
+    font-size: 50px;
       }
   }
 
