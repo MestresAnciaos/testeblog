@@ -87,24 +87,24 @@ header {
 
 .texto {
   font-family: 'Sacramento', cursive;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media (min-width: 400px) {
   .texto {
-    font-size: 35px;
+    font-size: 30px;
       }
   }
 
 @media (min-width: 600px) {
   .texto {
-    font-size: 40px;
+    font-size: 35px;
       }
   }
 
 @media (min-width: 1200px) {
   .texto {
-    font-size: 45px;
+    font-size: 40px;
       }
   }
 
