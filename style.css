@@ -7,11 +7,11 @@
 body {
   background-color: rgba(248, 74, 6, 0.925);
   background-size: auto 100vh; 
-  font-family: 'Roboto', sans-serif;
   height: 100vh;
   font-size: 12px;
   color: black;
   text-align: center;
+  font-family: 'Nova Oval', cursive;
   }
 
 @media (min-width: 400px) {
@@ -44,8 +44,8 @@ header {
   position: fixed;
   width: 100vw;
   top: 0;
-  font-family: 'VT323', monospace;
   font-size: 20px;
+  z-index: 1;
 }
 
 @media (min-width: 400px) {
@@ -62,7 +62,7 @@ header {
 
 @media (min-width: 1200px) {
   .menu {
-    font-size: 30px;
+    font-size: 50px;
       }
   }
 
@@ -78,15 +78,48 @@ header {
 .menu a {
   display: block;
   padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background-color 1s, color 2s;
 }
 
-.site_title {
+.menu a:active,
+.menu a:hover {
+  text-decoration: underline;
+  color: burlywood;
+  background-color: black;
+}
+
+.site-title {
   color:rgba(22, 7, 7, 0.842);
   margin-bottom: 100px;
 }
 
+.site-title h1 {
+  font-family: 'Ravi Prakash', cursive;
+  font-size: 45px;
+}
+
+@media (min-width: 400px) {
+  .site-title h1 {
+    font-size: 50px;
+      }
+  }
+
+@media (min-width: 600px) {
+  .site-title h1 {
+    font-size: 55px;
+      }
+  }
+
+@media (min-width: 1200px) {
+  .site-title h1 {
+    font-size: 60px;
+      }
+  }
+
 .texto {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Henny Penny', cursive;
   font-size: 25px;
 }
 
@@ -108,22 +141,17 @@ header {
       }
   }
 
-a {
+.cont i {
   color: black;
+  font-size: 3em;
+  transition: text-shadow 1s;
+}
+
+.cont i:active,
+.cont i:hover {
   text-decoration: none;
+  text-shadow: 0px 0px 10px whitesmoke;
 }
-
-a:hover {
-  text-decoration: underline;
-  color: burlywood;
-}
-
-.site-subtitle {
-  font-style: italic;
-  font-family: 'Press Start 2P', cursive;
-  line-height: 1.8em;
-}
-
 
 img {
   height: 90px;
@@ -134,6 +162,11 @@ img {
   margin-bottom: 1em;
   object-fit: fill;
   border-radius: 15%;
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 400px) {
@@ -156,3 +189,13 @@ img {
     width: 550px;
     }
   }
+
+h2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  }
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
