@@ -1,9 +1,11 @@
+/*Configurações iniciais*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   }
 
+/*Configurações do corpo do site*/
 body {
   background-color: rgba(248, 74, 6, 0.925);
   background-size: auto 100vh; 
@@ -14,18 +16,21 @@ body {
   font-family: 'Nova Oval', cursive;
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 400px) {
   body {
     font-size: 14px;
       }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 600px) {
     body {
       font-size: 16px;
         }
     }
 
+/*Alterações com base da resolução*/
 @media (min-width: 1200px) {
     body {
       font-size: 20px;
@@ -39,6 +44,7 @@ header {
   align-items: center;
 }
 
+/*Configurações no menu*/
 .menu {
   background-color: rgb(129, 39, 3);
   position: fixed;
@@ -48,18 +54,21 @@ header {
   z-index: 1;
 }
 
+/*Alterações com base da resolução*/
 @media (min-width: 400px) {
   .menu {
     font-size: 26px;
       }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 600px) {
   .menu {
     font-size: 28px;
       }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 1200px) {
   .menu {
     font-size: 50px;
@@ -83,6 +92,7 @@ header {
   transition: background-color 1s, color 2s;
 }
 
+/*Configurações de quando o mouse passa por cima ou clica*/
 .menu a:active,
 .menu a:hover {
   text-decoration: underline;
@@ -90,8 +100,9 @@ header {
   background-color: black;
 }
 
+/*Configuração do título principal*/
 .site-title {
-  color:rgba(22, 7, 7, 0.842);
+  color: black;
   margin-bottom: 100px;
 }
 
@@ -100,59 +111,89 @@ header {
   font-size: 45px;
 }
 
+/*Alterações com base da resolução*/
 @media (min-width: 400px) {
   .site-title h1 {
     font-size: 50px;
       }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 600px) {
   .site-title h1 {
     font-size: 55px;
       }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 1200px) {
   .site-title h1 {
     font-size: 60px;
       }
   }
 
+/*Configuração com o texto principal*/
 .texto {
   font-family: 'Henny Penny', cursive;
   font-size: 25px;
+  text-indent: 2em;
 }
 
+/*Alterações com base da resolução*/
 @media (min-width: 400px) {
   .texto {
     font-size: 30px;
       }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 600px) {
   .texto {
     font-size: 35px;
       }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 1200px) {
   .texto {
     font-size: 40px;
       }
   }
 
+/*Alterações do ícone do menu*/
 .cont i {
   color: black;
   font-size: 3em;
   transition: text-shadow 1s;
 }
 
+/*Configurações de quando o mouse passa por cima ou clica*/
 .cont i:active,
 .cont i:hover {
   text-decoration: none;
   text-shadow: 0px 0px 10px whitesmoke;
 }
 
+/*Configuração das margens dos h2*/
+.anime h2,
+.cartoon h2,
+.jogo h2,
+.filmeeserie h2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  }
+
+/*Configuração das margens dos p*/
+.anime p,
+.cartoon p,
+.jogo p,
+.filmeeserie p {
+  text-indent: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*Configuração das margens das imagens*/
 img {
   height: 90px;
   object-fit: cover;
@@ -161,14 +202,13 @@ img {
   margin-top: 1em;
   margin-bottom: 1em;
   object-fit: fill;
-  border-radius: 15%;
-  transition: transform 1s;
+  /*Arrendodar as imagens*/
+  /*border-radius: 15%;*/
+  /*Tempo para modificar*/
+  /*transition: transform 1s;*/
 }
 
-img:hover {
-  transform: scale(1.1);
-}
-
+/*Alterações com base da resolução*/
 @media (min-width: 400px) {
   img {
     height: 170px;
@@ -176,6 +216,7 @@ img:hover {
     }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 600px) {
   img {
     height: 230px;
@@ -183,6 +224,7 @@ img:hover {
     }
   }
 
+/*Alterações com base da resolução*/
 @media (min-width: 1200px) {
   img {
     height: 320px;
@@ -190,12 +232,22 @@ img:hover {
     }
   }
 
-h2 {
-  margin-top: 2em;
-  margin-bottom: 2em;
+/*
+Aumentar imagem quando passar o mouse
+*/
+/*
+  img:hover {
+    transform: scale(1.1);
   }
+*/
 
-p {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
+
+/* 
+Formas diferentes de figura
+*/
+/*
+  .img-anime1 {
+    float: right;
+    clip-path: polygon(50% 0%, 80% 10%, 0 43%, 100% 70%, 20% 10%, 50% 100%, 80% 10%, 0% 70%, 100% 43%, 20% 10%);
+  }
+*/
